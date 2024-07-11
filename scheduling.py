@@ -42,6 +42,11 @@ def main():
     deadlines_ = [1, 3, 4, 3, 2, 1, 2]
     profits_ = [3, 5, 20, 18, 1, 6, 30]
 
+    # Other example, please uncomment and comment the previous example to test
+    # jobs_ = ['J1', 'J2', 'J3', 'J4']
+    # deadlines_ = [2, 1, 2, 1]
+    # profits_ = [100, 10, 15, 27]
+
     sequence, profit_sequence, profit = job_scheduling(jobs_, deadlines_, profits_)
 
     print(f"Job sequence: {sequence}")
